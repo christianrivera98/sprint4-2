@@ -1,6 +1,6 @@
 import { GoogleAuthProvider, createUserWithEmailAndPassword, signInWithEmailAndPassword, signInWithPopup, updateProfile,  } from "firebase/auth";
 import { FirebaseAuth } from "./config";
-import { setError, setIsLogged, setUserLogged } from "../store/auth/authslice";
+import { setError, setIsLogged, setUserLogged } from "../store/auth/authSlice";
 
 const googleProvider = new GoogleAuthProvider();
 
