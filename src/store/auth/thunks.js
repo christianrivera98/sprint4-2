@@ -1,5 +1,5 @@
 import { loginWithEmailPassword, logoutFirebase, registerUserWithEmailPassword, signInWithGoogle } from "../../firebase/providers";
-import { chekingCredentials, login, logout, setError, setIsLogged, setUserLogged } from "./authslice";
+import { chekingCredentials, login, logout, setError, setIsLogged, setUserLogged } from "./authSlice";
 // import { chekingCredentials, login, logout, setError, setIsLogged, setUserLogged } from "./authSlice";
 
 
